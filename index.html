@@ -3,68 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <title>Biblioteca Digital</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       background: linear-gradient(135deg, #84fab0, #8fd3f4);
+      margin: 0;
       padding: 40px;
     }
-    h1 {
-      text-align: center;
-    }
-    .libro {
+
+    header {
       background: white;
-      padding: 15px;
-      margin: 15px auto;
-      max-width: 600px;
-      border-radius: 10px;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      margin-bottom: 30px;
     }
+
+    section {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .libro {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+
+    .libro:last-child {
+      border-bottom: none;
+    }
+
     a {
-      text-decoration: none;
       color: #00695c;
       font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>📚 Biblioteca Digital</h1>
-  <p style="text-align:center;">Proyecto académico</p>
+  <header>
+    <h1>📚 Biblioteca Digital</h1>
+    <p>Proyecto académico</p>
+    <p>Repositorio en GitHub Pages</p>
+  </header>
 
-  <div class="libro">
-    <p>📄 Documento 1</p>
-    <a href="UPSE-TEB-2026-017.pdf" target="_blank">
-      Ver PDF
-    </a>
-  </div>
+  <section>
+    <h2>📄 Documentos disponibles</h2>
+
+    <!-- DOCUMENTO 1 -->
+    <div class="libro">
+      <p>Documento 1</p>
+      <a href="UPSE-TEB-2026-017.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+    <!-- DOCUMENTO 2 -->
+    <div class="libro">
+      <p>Documento 2</p>
+      <a href="Castillo Tinizaray, María Fernanda.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+    <!-- DOCUMENTO 3 -->
+    <div class="libro">
+      <p>Documento 3</p>
+      <a href="1684-1859-rcim-15-01-e565.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+    <!-- DOCUMENTO 4 -->
+    <div class="libro">
+      <p>Documento 4</p>
+      <a href="Tesis completa.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+    <!-- DOCUMENTO 5 -->
+    <div class="libro">
+      <p>Documento 5</p>
+      <a href="05 FECYT 2203 TESIS.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+    <!-- DOCUMENTO 6 -->
+    <div class="libro">
+      <p>Documento 6</p>
+      <a href="Dialnet-PropuestaDeUnaBibliotecaDigitalParaGestionarLaCole-5833591.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+    <!-- DOCUMENTO 7 -->
+    <div class="libro">
+      <p>Documento 7</p>
+      <a href="TESIS FINAL.pdf" target="_blank">Ver PDF</a>
+    </div>
+
+  </section>
 
 </body>
 </html>
-<div class="libro">
-  <p>📄 Documento 2</p>
-  <a href="UPSE-TEB-2026-017.pdf" target="_blank">Ver PDF</a>
-</div>
-
-<div class="libro">
-  <p>📄 Documento 3</p>
-  <a href="archivo2.pdf" target="_blank">Ver PDF</a>
-</div>
-
-<div class="libro">
-  <p>📄 Documento 4</p>
-  <a href="archivo3.pdf" target="_blank">Ver PDF</a>
-</div>
-<div class="libro">
-  <p>📄 Documento 5</p>
-  <a href="UPSE-TEB-2026-017.pdf" target="_blank">Ver PDF</a>
-</div>
-
-<div class="libro">
-  <p>📄 Documento 6</p>
-  <a href="archivo2.pdf" target="_blank">Ver PDF</a>
-</div>
-
-<div class="libro">
-  <p>📄 Documento 7</p>
-  <a href="archivo3.pdf" target="_blank">Ver PDF</a>
-</div>
